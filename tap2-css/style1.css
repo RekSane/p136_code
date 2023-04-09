@@ -1,0 +1,32 @@
+div {
+    background-color: grey;
+    height: 65px;
+    width: 75px;
+    margin: 100px auto;
+    padding-top: 10px;
+}
+
+.goz1 {
+    background-color: blue;
+    border-radius: 30px;
+    margin-left: 16px;
+}
+
+.goz2 {
+    background-color: blue;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+
+.burun {
+        border-radius: 10px;
+        margin-left: 31px;
+}
+.mouth {
+        width: 50px;
+        height: 2px;
+        background-color: #c06262;
+        margin: 5px auto 0;
+        border-radius: 10px;
+}
+
