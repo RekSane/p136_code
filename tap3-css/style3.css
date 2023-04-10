@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: rgb(164, 193, 219);
+    background-color: rgb(187, 214, 184);
 }
 .d1 {
     margin-top: 65px;
@@ -29,41 +29,65 @@ body {
     margin: auto;
     background-color: white;
     width: 900px;
-    height: 600px;
-    border: 1px solid rgb(179, 179, 179);
+    height: 500px;
+    border: 1px solid rgb(148, 175, 159);
 }
 
 .dc1 {
+    margin: 0 0 15px 0;
     text-align: left;
-    border: 2px solid rgb(182, 179, 179);
-
+    border: 2px solid rgb(148, 175, 159);
+    padding: 20px
 }
 
 .dc2 {
+    margin: 0 0 15px 0;
     text-align: left;
-    border: 2px solid rgb(182, 179, 179);
+    border: 2px solid rgb(148, 175, 159);
+    padding: 20px
 }
 
 .dc3 {
+    margin: 0 0 15px 0;
     text-align: left;
-    border: 2px solid rgb(182, 179, 179);
+    border: 2px solid rgb(148, 175, 159);
+    padding: 20px
 }
 
 .dc4 {
+    margin: 0 0 15px 0;
     text-align: left;
-    border: 2px solid rgb(182, 179, 179);
+    border: 2px solid rgb(148, 175, 159);
+    padding: 20px
 }
 
 .dc5 {
+    font-size: larger;
+    margin: 0 0 15px 0;
     text-align: left;
-    border: 2px solid rgb(182, 179, 179);
+    border: 2px solid rgb(148, 175, 159);
+    padding: 10px 681px 80px 20px;
 }
 
-.dc6 {
+/* .dc6 {
+    margin: 0 0 15px 0;
     color:white ;
     font-weight: 600;
     font-size: 10px;
     background-color: rgb(96, 138, 156);
-}
+    padding: 20px
+}  */
 
+.button {
+  background-color:rgb(148, 175, 159);
+  border: none;
+  color: white;
+  padding: 20px 390px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
 
