@@ -19,8 +19,13 @@ top: 0px;
 
 .bar2 span:first-child {
     display: inline-block;
+    transform: rotate(90deg);
+    transition: 0.5s;
 }
-
+ 
+.bar2 span:first-child:hover{
+    transform: rotate(180deg);
+}
 
 .bar2 span {
     cursor: pointer;
