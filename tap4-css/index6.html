@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Alanları ve Iconlar</title>
+	<!-- Font Awesome kütüphanesi -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-qvJhZBdRyYfPGJQ2jK3nJxGJibFJ6fLAgGE+tg0qblCjKdVfMjPmT0TmIRxT+o7zJF54PJ0QmVwI/ytNQc1Yow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		/* input alanlarını boyutlandırmak için */
+		input[type="text"] {
+			padding: 10px 30px 10px 10px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 10px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		/* gönder butonunu boyutlandırmak için */
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			float: right;
+		}
+		/* bir div'i temizlemek için */
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		/* input alanları ve iconlar için ayarlar */
+		.container {
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+		.row {
+			margin-bottom: 20px;
+		}
+		.col-25 {
+			float: left;
+			width: 25%;
+			margin-top: 6px;
+			font-size: 16px;
+			position: relative;
+		}
+		.col-25 i {
+			position: absolute;
+			right: 10px;
+			top: 12px;
+			color: #ccc;
+			font-size: 18px;
+		}
+		.col-75 {
+			float: left;
+			width: 75%;
+			margin-top: 6px;
+		}
+		@media screen and (max-width: 600px) {
+			.col-25, .col-75, input[type="submit"] {
+				width: 100%;
+				margin-top: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Input Alanları ve Iconlar Örneği</h1>
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-25">
+					<label for="name">Adınız</label>
+					<i class="fas fa-user"></i>
+				</div>
+				<div class="col-75">
+					<input  type="text" id="name" name="name" placeholder="Adınızı girin">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="email">E-Posta</label>
+					<i class="fas fa-envelope"></i>
+				</div>
+				<div class="col-75">
+					<input type="text" id="email" name="email" placeholder="E-Posta adresinizi girin">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="password">Şifre</label>
+					<i class="fas fa-lock"></i>
+				</div>
+				<div class="col-75">
+					<input type="password" id="password" name="password" placeholder="Şifrenizi girin">
+				</div>
+			</div>
+			<div class="row">
+				<input type="submit" value="Gönder">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

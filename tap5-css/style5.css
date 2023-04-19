@@ -1,0 +1,51 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.bar {
+background-color: rgb(204, 178, 144);
+padding: 10px 30px;
+}
+
+.divbar {
+background-color: rgb(230, 157, 62);
+width: 100%;
+position: sticky;
+top: 0px;
+
+}
+
+.bar2 span:first-child {
+    display: inline-block;
+}
+
+
+.bar2 span {
+    cursor: pointer;
+}
+
+p {
+font-size: 20px;
+}
+
+.bar2 {
+    position: relative;
+    padding: 15px 20px;
+    color: rgb(243, 233, 233);
+    }
+
+button {
+    position: absolute;
+    border: none;
+    background: none;
+    color: white;
+    right: 25px;
+    top: 15px;
+    transition: 0.7s;
+}
+
+button:hover {
+    transform:scale(1.3);
+}
