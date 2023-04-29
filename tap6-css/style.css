@@ -14,6 +14,7 @@ body {
     padding: 40px 310px 0 310px;
   }
 
+
 .topbar_container {
     display: flex;
     justify-content: space-between;
@@ -73,4 +74,17 @@ p {
     font-weight: 700;
     line-height: 24px;
     color: #1B3764;
+}
+
+.welcome_container {
+  width: 1301px;
+  height: 800px;
+  margin: 134px 310px 76px ;
+  background-color: #FFFFFF;
+}
+
+.welcome_left_container {
+  width: 614px;
+  height: 517px;
+  background-color: bisque; 
 }
